@@ -1,0 +1,397 @@
+*{margin: 0;
+}
+
+body{
+	font-family: 'Roboto', sans-serif;
+	font-family: 'Abril Fatface', cursive;
+}
+
+.container{
+	max-width: 900px !important;
+}
+
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~HEADER SECTION~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+.logo{
+	max-width: 120px;
+	height: 50px;
+}
+
+#navbarSupportedContent ul li a{
+	font-size: 12px;
+	font-weight: 650;
+	color: #0a0a0a;
+}
+
+#navbarSupportedContent ul li a:hover{
+  color: #FAB132;
+}
+
+.navButton a{
+  background-color: #FAB132;
+  border-radius: 30px;
+  color: #fff;
+}
+
+.navButton a:hover{
+  background-color: transparent;
+  border: gray 1px solid;
+  color: black !important;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~BANNER SECTION~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~` */
+
+.banner .container{
+  height: 100vh;
+  padding-top: 180px;
+}
+
+.banner .row{
+  height: 100vh;
+
+}
+
+.bannerImg{
+	background: #000000a8 url(../images/banner.jpg);
+	height: 100vh;
+	background-attachment: fixed; 
+  background-size: cover;
+  background-blend-mode: darken;
+}
+
+.banner img{
+  height: 15px;
+  width: 100px;
+}
+
+.banner h6{
+  font-size: 20px;
+  color: #FAB131;
+  font-family: 'Abril Fatface';
+  margin-top: 15px;
+}
+
+.banner h1{
+  font-size: 60px;
+  font-family: 'Abril Fatface';
+}
+
+.banner p{
+  font-size: 15px;
+  margin: 20px 0;
+}
+
+.bannerButton a{
+  border-radius: 30px;
+  background-color: transparent;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 13px;
+}
+
+.bannerButton a:hover{
+  background-color: #fff;
+  font-weight: 600;
+}
+
+
+/* ~~~~~~~~~~~~~~~~~~~~OUR STORY~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+.ourStory{
+  margin: 80px;
+}
+
+.storyIcon{
+  width: 40px;
+}
+
+.ourStory h1{
+  font-size: 30px;
+  color: #FAB131;
+  font-family: 'Abril Fatface';
+  margin-top: 15px;
+}
+
+.storyVector{
+  height: 20px;
+  width: 100px;
+}
+
+.ourStory h6{
+  margin: 20px 0;
+  text-transform: uppercase;
+  font-size: 13px;
+}
+
+.ourStory p{
+  font-size: 12px;
+}
+
+
+.ourStory .dishes{
+  height: 450px;
+  width: 250px;
+}
+
+.ourStory .sponsor{
+  margin: 70px 0;
+}
+
+
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~FEATURED SECTION~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+.featured {
+  background: rgba(124, 86, 4, 0.747) url('../images/featured.jpg'); 
+  min-height: 60vh;
+  max-width: 100vw;
+	background-attachment: fixed; 
+  background-size: cover;
+  background-blend-mode: multiply;
+}
+.featured h1{
+  font-size: 35px;
+  font-family: 'Abril Fatface';
+  color: #FAB131;
+  padding-top: 130px;
+}
+
+.featured h6{
+  font-size: 14px;
+  margin: 20px 0;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.featuredVector{
+  height: 20px;
+  width: 130px;
+}
+
+.featured p{
+  font-size: 13px;
+  color: #fff;
+  margin: 20px 0;
+  font-style: italic;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~DISHES SECTION~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+.dishes{
+  /*background: #fff url('../images/dishesBack.jpg');
+  min-height: 60vh; 
+  background-size: cover;
+  opacity: 0.2;*/
+  margin: 50px 0;
+}
+
+
+.dishDetails{
+  margin: 70px 10px;
+}
+
+
+.dishDetails h4{ 
+  font-family: 'Abril Fatface';
+}
+
+.pPrice{
+  color: #FAB132 !important;
+}
+.dishDetails p{
+  font-size: 12px;
+  width: 150px;
+}
+
+.dishImage img{
+  border-radius: 100px;
+}
+
+.plate{
+  width:150px;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~HAPPY HOUR SECTION~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+.happyHour{
+  background: #fff url('../images/happyhours.jpg');
+  height: 70vh;
+  max-width: 100vw;
+  background-attachment: fixed; 
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: luminosity;
+
+}
+
+
+.happyHour img{
+  width: 70px;
+  margin-top: 110px;
+}
+
+.happyHour hr{
+  width: 230px;
+  border-width: 3px;
+  border-color: #b3b5b4;
+  margin-top: 130px;
+}
+
+.happyHour h6{
+  font-family: 'Abril Fatface';
+  color: #fff;
+
+}
+
+.happyHour h3{
+  font-family: 'Abril Fatface';
+  color: #FAB131; 
+  font-size: 34px;
+
+}
+
+.happyHour p{
+  color: #fff; 
+  font-size: 12px;
+  font-weight: 900;
+  margin-top: 8px;
+}
+
+.happyHour a{
+  border-radius: 30px;
+  background: transparent;
+  color: white;
+  border: #fff 1px solid;
+  text-transform: uppercase;
+  font-size: 11px;
+  font-weight: 900;
+  margin-top: 8px;
+  padding: 8px 25px;
+}
+
+.happyHour a:hover{
+  background-color: #fff;
+  font-weight: 900;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~CUSTOMER FEEDBACK SECTION~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+.feedback{
+  /*background: #fff url('../images/feedbackBack.jpg');
+  min-height: 60vh;
+  opacity: 0.1;
+  background: rgba(0,0,0, 0.2) url('../images/feedbackBack.jpg');
+  */
+}
+
+.feedback h2{
+  font-family: 'Abril Fatface';
+  font-size: 30px;
+
+}
+
+.feedback h2 i{
+  color: red;
+  margin-top: 60px;
+
+}
+
+.feedback img{
+  width: 130px;
+  margin: 12px 0;
+}
+
+.feedback p{
+  font-size: 12px;
+
+}
+
+.client{
+  max-width: 50px;
+  height:50px;
+  border-radius: 100px;
+}
+
+.clientRow{
+  max-width: 800px;
+  padding-left: 100px;
+}
+
+.clientRow p{
+  font-size: 14px;
+  font-weight: 650;
+
+}
+
+.clientRow h6{
+  font-size: 10px;  
+  font-family: 'Abril Fatface';
+}
+
+/* _______________________________FOOTER SECTION_______________________________________ */
+
+footer{
+  background: #000 url('../images/letseat.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: hard-light;
+  min-height: 90vh;
+}
+
+footer h1{
+  font-family: 'Abril Fatface';
+  font-size: 66px;
+  margin-top: 120px;
+}
+
+footer img{
+  height: 20px;
+  width: 145px;
+  margin-bottom: 20px;
+}
+
+footer p{
+  font-size: 16px;
+  margin-bottom: 40px;
+  font-weight: 600;
+}
+
+.hhButton{
+  text-decoration: none;
+  color: #FAB132;
+  text-transform: uppercase;
+  font-size: 12px;
+  border: 1px solid;
+  border-radius: 30px;
+  padding: 10px 24px;
+}
+
+.hhButton:hover{
+  color: #000;
+  background-color: #fff;
+  text-decoration: none;
+}
+
+footer h5{
+  font-family: 'Abril Fatface';
+  font-size: 20px;
+  margin: 40px 0 55px 0;
+}
+
+.social{
+  margin-bottom: 90px;
+}
+
+.social i{
+  margin: 0 4px;
+  border: 2px dotted white;
+  border-radius: 100px;
+  padding: 10px;
+}
+
+.footerBottom p{
+  font-size: 10px; 
+  text-transform: uppercase; 
+}
+
